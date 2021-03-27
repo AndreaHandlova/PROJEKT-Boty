@@ -26,45 +26,42 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
 }
 
 body {
     font-family: 'Rubik', sans-serif;
     background-color: #f5f5f5;
-    
 }
 
 .container {
+    border-radius: 5px;
     display: flex;
     width: 670px;
     height: 440px;
     margin: auto;
     margin-top: 100px;
-    box-shadow: 2px 2px 10px 0px rgba(107, 107, 107, 0.75);
+    box-shadow: 2px 2px 10px 0px rgba(107, 107, 107, 0.75);    
     
 }
 
 /*-----------------------left side--------------------*/
-.item {
+.shoe {
     position: absolute;
-    top: 150px;
     left: -90px;
+    bottom: 20px;
 }
 
 .left{
+    padding: 30px;
     background-image: linear-gradient(#06d7c1, #50cc49);
     width: 50%;
     position: relative;
+    border-radius: 5px 0 0 5px;
 }
 
-
-.logo {
-    margin: 30px;
-}
 
 .motto {
-    margin-left: 30px;
+    
     font-size: 16px;
     font-weight: 500;
     color: white;
@@ -89,6 +86,7 @@ body {
 }
 /*--------------------- right side -------------------*/
 .right{
+    border-radius: 0 5px 5px 0;
     background-color: white;
     width: 50%;
     position: relative;
@@ -113,6 +111,7 @@ body {
     border-bottom: 2px solid #06d7c1;
     font-size: 14px;
 }
+
 
 .heading2 {
     padding-top: 30px;
@@ -139,5 +138,6 @@ li.selected {
     padding: 15px 25px;
     border-radius: 5px;
     position: absolute;
-    top: 370px;
+    bottom: 20px;
+    box-shadow: rgb(48, 42, 42) 1px 1px 3px;
 }
